@@ -1,0 +1,3 @@
+ALTER TABLE `agenda-petshop`.atendimentos
+ADD `data` DATETIME DEFAULT '2021-07-02 08:00:00' NOT NULL AFTER `servico`,
+ADD `dataCriacao` DATETIME DEFAULT '2021-07-02 08:00:00' NOT NULL AFTER `data`
